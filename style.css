@@ -1,0 +1,542 @@
+* {
+    margin-left: 3%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 236, 227);
+}
+
+header {
+    width: 95%;
+    height: 25%;
+}
+
+nav, .logo, ul, li {
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    margin-top: 2%;
+}
+
+li {
+    display: inline-block;
+    font-family: century gothic;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 2%;
+}
+
+li:hover {
+    color: orangered;
+}
+
+header > ul, li {
+    padding-left: 3%;
+    float: right;
+}
+
+/* nav {
+    width: 95%;
+    margin-top: 2%;
+}
+
+nav > .logo , ul, li, i {
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+}
+
+li {
+    position: relative;
+    right: 0%;
+    left: 115%;
+    color: black;
+    font-family: century gothic;
+    font-weight: bolder;
+    float: right;
+    padding-left: 4%;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration-line: underline;
+}
+
+i {
+    padding-left: 2%;
+    position: absolute;
+    right: 0%;
+    top: 7%;
+    left: 74%;
+    cursor: pointer;
+}
+
+span {
+    color: white;
+}
+
+span:hover {
+    text-decoration-line: none;
+} */
+
+.maintext {
+    width: 57%;
+    height: 30%;
+    margin-top: 10%;
+    position: relative;
+}
+
+h1 {
+    color: orangered;
+    font-size: 55px;
+    font-family: century gothic;
+}
+
+span{
+    color: black;
+}
+
+b {
+    color: rgb(83, 81, 81);
+    padding-left: 0%;
+}
+
+p {
+    font-size: 13px;
+    font-family: century gothic;
+}
+
+.selections {
+    width: 50%;
+    padding: 1.5%;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 5px grey;
+}
+
+#city {
+    font-family: century gothic;
+}
+
+select {
+    padding: 2%;
+    border: 1px solid grey;
+    border-radius: 20%;
+}
+
+option {
+    padding: 2%;
+}
+
+.input1 {
+    padding: 2%;
+    width: 63%;
+    height: 13%;
+    border: 1px solid grey;
+    border-radius: 20%;
+    position: relative;
+}
+
+input::placeholder {
+    font-family: century gothic;
+}
+
+.selections > i{
+ position: absolute;
+ left: 42%;
+ top: 89%;
+}
+
+.form {
+    position: absolute;
+    right: 3%;
+    left: 65%;
+    top: 25%;
+    width: 28%;
+    height: 76%;
+    border: none;
+    border-radius: 13%;
+    background-image: url(images/formbackground.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: century gothic;
+    font-size: 30px;
+}
+
+.formreq {
+    border: 1px solid grey;
+    border-radius: 10%;
+    width: 90%;
+    height: 9%; 
+    padding-left: 4%;
+    margin-left: 4%;
+    font-family: century gothic;
+}
+
+.formreq::placeholder{
+    font-family: century gothic;
+}
+
+.formbutton {
+    font-family: century gothic;
+    width: 90%;
+    height: 10%;
+    margin-left: 4%;
+    background-color: orangered;
+    border: none;
+    border-radius: 25%;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.formbutton:hover {
+    background: none;
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.shorttext {
+    margin-top: 6%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: century gothic;
+}
+
+.windows {
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 17%;
+    padding: 4%;
+    border: 2px solid grey;
+    border-radius: 10%;
+    display: inline-block;
+    font-family: century gothic;
+    cursor: pointer;
+}
+
+.windowimage {
+    width: 35%;
+    height: 45%;
+}
+
+.windows:hover {
+    background-color: rgb(214, 206, 206);
+    border: 1px solid rgb(177, 172, 172);
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.image1 {
+    width: 20%;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://kamkaj.azureedge.net/image/6324e4e7bff2435080b492e4ff312176.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: century gothic;
+    z-index: 3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.image2 {
+    width: 20%;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://kamkaj.azureedge.net/image/70f9617602be44feab837d4187acedf9.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: century gothic;
+    z-index: 3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.image3 {
+    width: 20%;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://kamkaj.azureedge.net/image/b43b956f2c134597a7e6d3b81bbaa2ad.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: century gothic;
+    z-index: 3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.image4 {
+    width: 20%;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://kamkaj.azureedge.net/image/881acb4e91ea4d2f858999e2cb84b8b5.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: century gothic;
+    z-index: 3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.image5 {
+    width: 20%;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://kamkaj.azureedge.net/image/d6a654160ea543208ed7073a4a7928cc.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: century gothic;
+    z-index: 3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.image6 {
+    width: 20%;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://kamkaj.azureedge.net/image/a56765af1a2c49afb1cec0aebe58ddc5.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: century gothic;
+    z-index: 3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.image7 {
+    width: 20%;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://kamkaj.azureedge.net/image/1870088f213c4580b2ad7f8b4ad064ab.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: century gothic;
+    z-index: 3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.image8 {
+    width: 20%;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://kamkaj.azureedge.net/image/07964f17b8c24e05871d8811a8632e63.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: century gothic;
+    z-index: 3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.imagebutton {
+    font-family: century gothic;
+    width: 80%;
+    height: 25%;
+    margin-left: 4%;
+    padding: 2%;
+    background-color: black;
+    border: none;
+    border-radius: 20%;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.imagebutton:hover {
+    background: orangered;
+    color: white;
+    border: none;
+}
+
+.sideimage {
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-top: 4%;
+}
+
+.sidetext {
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+
+.appsec {
+    width: 90%;
+    height: 40%;
+    background-color: rgb(121, 114, 114);
+    margin-bottom: 3%;
+}
+
+.mobileimage {
+    float: left;
+    margin-top: 7%;
+    padding-left: 4%;
+}
+
+.sidetext2 {
+    margin-top: 7%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+h4 {
+    font-family: century gothic;
+    font-size: 20px;
+}
+
+section {
+    font-family: century gothic;
+}
+
+.mobileimage, .sidetext2 {
+    display: inline-block;
+}
+
+.sidetext2 {
+    width: 37%;
+    height: 35%;
+    float: right;
+}
+
+.apps {
+    width: 30%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.code {
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
+    padding-top: 3%;
+}
+
+.sponsored {
+    margin-top: 95%;
+    width: 90%;
+    height: 50%;
+}
+
+.sponsoredlogo {
+    display: inline-block;
+}
+
+.lowersec {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    top: 575%;
+    width: 97%;
+    height: 56%;
+    border: none;
+    background-image: url(images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 2%;
+    padding-top: 2%;
+
+    /* margin-top: 5%;
+    width: 50%;
+    height: 60%;
+    background-image: url(images/formbackground.jfif);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.side1 {
+    float: left;
+}
+
+.side2 {
+    float: right;
+    position: relative;
+    bottom: 87%;
+}
+
+aside {
+    padding-top: 2%;
+    color: white;
+    font-size: 17px;
+    font-family: century gothic;
+    width: 35%;
+    height: 60%;
+}
+
+.extratext {
+    border: 1px solid black;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 28%;
+    height: 20%;
+    display: inline-block;
+    margin-left: 0%;
+    padding-right: 15%;
+}
